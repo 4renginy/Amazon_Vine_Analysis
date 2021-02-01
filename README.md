@@ -11,17 +11,17 @@
     to wireless products. I have picked "Amazon reviews_us_Electronics"
 
     
-    <br>using  PySpark (ETL process) 
-    <br>extracted the Electronics dataset, 
-    <br>transformed the data, 
-    <br>connected to an AWS RDS instance, and 
-    <br>loaded the transformed data into pgAdmin. 
+    using  PySpark (ETL process) 
+    extracted the Electronics dataset, 
+    transformed the data, 
+    connected to an AWS RDS instance, and 
+    loaded the transformed data into pgAdmin. 
     
-    <br>Next, using PySpark analysed the data to determine if there is any bias toward favorable reviews from Vine members in the dataset.
-<br>
+    Next, using PySpark analysed the data to determine if there is any bias toward favorable reviews from Vine members in the dataset.
+
    ## Process:
-<br>
-    <br>1- Perform ETL on Amazon Product Reviews
+
+   1- Perform ETL on Amazon Product Reviews
     
              [Amazon_Reviews_ETL.ipynb file](https://github.com/4renginy/Module16-Amazon_Vine_Analysis/blob/main/Amazon_Reviews_ETL.ipynb)
 
@@ -45,13 +45,13 @@
     
     2- Determine Bias of Vine Reviews
     
-                [Vine_Review_Analysis.ipynb] (https://github.com/4renginy/Module16-Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb)
+    [Vine_Review_Analysis.ipynb] (https://github.com/4renginy/Module16-Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb)
 
-                In this file we have uplaoded the electronics file into colaboratory, 
+               In this file we have uplaoded the electronics file into colaboratory, 
 
-                created a dataframe from the full data
+               created a dataframe from the full data
 
-                created vine_df with 6 required colums for the analysis
+               created vine_df with 6 required colums for the analysis
 
                 then filtered the data for
                                             1-"total_votes>=20 
@@ -69,7 +69,8 @@
                     Five star percentage for nonvine club members      46.39 %
                     Five star percentage for wine club members         42.03 %
 
-Conculution 1: Based on our calculations five star percentage from non wine club memebers is higher than wine club members, 
+Conculution 1: Based on our calculations five star percentage from non wine club memebers is higher than wine 
+club members, 
 in addition when we  consider the count of nonvine members to vine members the cost is not worth the return. 
 
 However we wanted to make sure the concution withdrow is accurate went one step ahead and run more calcuations by 
@@ -85,6 +86,9 @@ including verified purchases.
 
 Concuclution 2: Percentage of nonvine members for verified and unverifed still higher than the unverifed members. 
 
-    Yes the verified purcahse is 100 % but there are only 3 items in this calculation so still 100 % does not give justifiable positif result.
+    Yes the verified purcahse is 100 % but there are only 3 items in this calculation so still 100 % does not give 
+    justifiable positif result.
 
-CONCULUTION: Based on the number of members and nonmembers with 5 star ratings I beleive the amount of money we spend for vineclub does not have the necessary return.
+## CONCULUTION:
+Based on the number of members and nonmembers with 5 star ratings I beleive the amount of money we spend for 
+vineclub does not have the necessary return.
