@@ -23,7 +23,7 @@
 
    1- Perform ETL on Amazon Product Reviews
     
-             [Amazon_Reviews_ETL.ipynb file](https://github.com/4renginy/Module16-Amazon_Vine_Analysis/blob/main/Amazon_Reviews_ETL.ipynb)
+   [Amazon_Reviews_ETL.ipynb file](https://github.com/4renginy/Module16-Amazon_Vine_Analysis/blob/main/Amazon_Reviews_ETL.ipynb)
 
 
                 I)Started with importing electronics data into colabotary 
@@ -40,12 +40,12 @@
                 IV)Connected to AWS RDS and wrote each of those data frames to its table 
 
                 At the end of this process we had all the tables at pgadmin sql database to be analysed.
-               ![](https://github.com/4renginy/Module16-Amazon_Vine_Analysis/blob/main/sql.JPG)
+  ![](https://github.com/4renginy/Module16-Amazon_Vine_Analysis/blob/main/sql.JPG)
 
     
     2- Determine Bias of Vine Reviews
     
-    [Vine_Review_Analysis.ipynb] (https://github.com/4renginy/Module16-Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb)
+  [Vine_Review_Analysis.ipynb] (https://github.com/4renginy/Module16-Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb)
 
                In this file we have uplaoded the electronics file into colaboratory, 
 
