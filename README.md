@@ -45,7 +45,7 @@
     
     2- Determine Bias of Vine Reviews
     
-  [Vine_Review_Analysis.ipynb] (https://github.com/4renginy/Module16-Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb)
+  [Vine_Review_Analysis.ipynb](https://github.com/4renginy/Module16-Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb)
 
                In this file we have uplaoded the electronics file into colaboratory, 
 
