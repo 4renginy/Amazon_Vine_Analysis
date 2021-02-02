@@ -2,12 +2,14 @@
 
 ## Purpose of Project
 
-    <br>The purpose of this project is to analyzing Amazon reviews written by members of the paid Amazon Vine program. 
+    The purpose of this project is to analyzing Amazon reviews written by members of the paid Amazon Vine program and to to determine
+    if there is any bias toward favorable reviews from Vine members in the dataset.
+    
     The Amazon Vine program is a service that allows manufacturers and publishers to receive reviews for their products. 
     Companies like SellBy pay a small fee to Amazon and provide products to Amazon Vine members, who are then required to publish
     a review.
 
-    <br>In this project, we had access to approximately 50 datasets. Each one contained reviews of a specific product, from clothing apparel
+    In this project, we had access to approximately 50 datasets. Each one contained reviews of a specific product, from clothing apparel
     to wireless products. I have picked "Amazon reviews_us_Electronics"
 
     
@@ -17,7 +19,7 @@
     connected to an AWS RDS instance, and 
     loaded the transformed data into pgAdmin. 
     
-    Next, using PySpark analysed the data to determine if there is any bias toward favorable reviews from Vine members in the dataset.
+  
 
    ## Process:
 
@@ -69,12 +71,11 @@
                     Five star percentage for nonvine club members      46.39 %
                     Five star percentage for wine club members         42.03 %
 
-Conculution 1: Based on our calculations five star percentage from non wine club memebers is higher than wine 
-club members, 
-in addition when we  consider the count of nonvine members to vine members the cost is not worth the return. 
+Conculution 1: Based on our calculations five star percentage from nonwine club memebers is higher than wine 
+club members, that shows no bias for the vine program
 
 However we wanted to make sure the concution withdrow is accurate went one step ahead and run more calcuations by 
-including verified purchases.
+including verified purchase.
 
                 Percentage of five star ratings for nonvine members with verified purchases:         48.06 %
 
@@ -84,11 +85,14 @@ including verified purchases.
 
                 Percentage of five star ratings for vinemembers with unverified purchases:           41.87 %
 
-Concuclution 2: Percentage of nonvine members for verified and unverifed still higher than the unverifed members. 
+Concuclution 2: Percentage of nonvine members voting 5 star still higher for nonmembers. !00 % for verifed vinemembers however there is only3 votes
+so we could condiser it as swing vote
 
-    Yes the verified purcahse is 100 % but there are only 3 items in this calculation so still 100 % does not give 
-    justifiable positif result.
+ 
 
 ## CONCULUTION:
-Based on the number of members and nonmembers with 5 star ratings I beleive the amount of money we spend for 
-vineclub does not have the necessary return.
+Based on calculations we made for the number of members and nonmembers with 5 star ratings;
+
+**********************there is any bias toward favorable reviews from Vine members in the dataset*******************
+
+Thank you for your time
